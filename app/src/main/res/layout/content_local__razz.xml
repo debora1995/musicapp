@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="controller.musicapp.musicapp.Local_Razz"
+    tools:showIn="@layout/activity_local__razz"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:fillViewport="false"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/razz"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Sala Razzmatazz"
+                    android:id="@+id/textViewNomLocal"
+                    android:textColor="#05f721" />
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="20px" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Horari:"
+                        android:id="@+id/textViewHorari" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="No hi ha un horari disponible"
+                        android:id="@+id/textViewHorariIndicat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="· Breu descripció: La sala Razzmatazz es un referente en el ámbito musical. Sus cinco salas (Razz Club, The Loft, Rex Room, Pop Bar y Lolita) son lugar de reunión de miles de personas cada semana.\n
+· Telèfon: 933 20 82 00\n· Correu electrònic: inforazz@salarazzmatazz.com\n· Lloc web: http://www.salarazzmatazz.com\n· Transport públic: METRO: L1 MARINA L4 BOGATELL\n· Normas de uso: Con el fin de preservar el buen clima de nuestra página de Facebook no se admitirán comentarios ofensivos que contengan insultos o palabras malsonantes, así como tampoco descalificaciones orientadas hacia nuestro servicio, empleados u otros miembros de la comunidad.\nNo pretendemos omitir las críticas, siempre que éstas tengan un tono constructivo. No obstante, como nuestra prioridad se concentra en mejorar, toda intención que se aleje de este objetivo, no tendrá cabida en nuestro espacio.\n\nDel mismo modo, se restringirán los comentarios que citen otras páginas de nuestra competencia o contengan publicidad, tanto explícita como encubierta, ya que consideramos que nuestra página no es el lugar adecuado para acoger este tipo de informaciones.\n\nEn el interior de la sala pueden ser tomadas imágenes dedicadas a las necesidades informativas y/o promocionales de Sala Razzmatazz S.L.
+\n\nPuedes ejercer tu derecho de acceso, rectificación, cancelación y oposición, dirigiéndote a gestion@salarazzmatazz.com."                       android:id="@+id/textView" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GoogleMaps"
+            android:id="@+id/btngooglemaps"
+            android:layout_weight="1"
+            android:onClick="ongooglemaps"
+            android:nestedScrollingEnabled="true"
+            android:height="@dimen/abc_action_bar_content_inset_material" />
+    </LinearLayout>
+
+</LinearLayout>

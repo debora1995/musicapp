@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.an droid.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" tools:context=".Loggin"
+    style="@style/LayoutStartStyle">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Welcome"
+            android:id="@+id/tvSignIn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            style="@style/TitlesStyle" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Gmail"
+            android:id="@+id/btnGmail"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="@string/On_Click"
+            style="@style/ButtonStyle" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/User"
+            android:id="@+id/btnUser"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="@string/On_Click"
+            style="@style/ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Create_user"
+            android:id="@+id/btnNewUser"
+            android:clickable="true"
+            android:onClick="@string/On_Click"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Forgot_pass"
+            android:id="@+id/btnForgotPass"
+            android:clickable="true"
+            android:onClick="@string/On_Click"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

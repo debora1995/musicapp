@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">My profile</string>
+    <string name="On_Click">onClick</string>
+    <string name="title_activity_login">MusicApp</string>
+    <string name="title_activity_create_acount">Create acount</string>
+    <string name="title_activity_forgot_pass">Forgot your password</string>
+    <string name="title_activity_search_filter">Filtered search</string>
+    <!--Login -->
+    <string name="Welcome">Welcome to MusicApp!</string>
+    <string name="Gmail">Gmail</string>
+    <string name="User">I\'m user</string>
+    <string name="Create_user">New user</string>
+    <string name="Forgot_pass">Forgot your password?</string>
+    <!--Principal -->
+    <string name="Map">Maps</string>
+    <string name="Image_search">Go to search filter</string>
+    <string name="Image_maps">Go to Google Maps</string>
+    <!--Search filter -->
+    <string name="Search_title">Filtered search</string>
+    <string name="ArtistBand">Artist/Band</string>
+    <string name="Local">Local</string>
+    <string name="Poblation">Poblation</string>
+    <string name="Date">Date</string>
+    <string name="PickDate">Pick a date</string>
+    <string name="Filter">Filter</string>
+    <!--Create new user -->
+    <string name="New_user">New user</string>
+    <string name="Name">Name:</string>
+    <string name="Lastname">Lastname:</string>
+    <string name="Password">Password:</string>
+    <string name="Incorrect_password">*Error,  Maximum 14 ch - Minimum 8 ch</string>
+    <string name="Sex">Sex</string>
+    <string-array name="sex_array">
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+    <string name="Birthdate">Birthdate:</string>
+    <string name="Description_imgCalendar">Pick your birthdate</string>
+    <string name="Phone">Phone:</string>
+    <string name="Incorrect_phone">*Not a valid telephone number</string>
+    <string name="Email">E-mail</string>
+    <string name="Create">Create user</string>
+    <string name="Cancel">Cancel</string>
+    <!--Forgot your password? -->
+    <string name="Forgot_pass_title">Forgot your password?</string>
+    <string name="instructions">Enter your email address and we\'ll send you an e-mail to reestablish your passoword </string>
+    <string name="Send">Send</string>
+    <!--Profile -->
+    <string name="Profile_photo">photo</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_input_user">InputUser</string>
+    <string name="title_activity_input_event">InputEvent</string>
+    <string name="Local_owners">Are you the owner of a local?</string>
+    <!--Create new event -->
+    <string name="New_event">New event</string>
+    <string name="Day">Day:</string>
+    <string name="Hour">Hour:</string>
+    <string name="Price">Price:</string>
+    <string name="Hint_price">0,00€</string>
+    <string name="Event_Photo">Photo:</string>
+    <string name="Photo_event">Event\'s photo</string>
+    <string name="Observations">Observations:</string>
+    <string name="Create_event">Create event</string>
+    <string name="title_activity_identification">Identification</string>
+    <!--Identification -->
+    <string name="Sign_in">Sign in</string>
+    <string name="Error_identification">Wrong e-mail or password. Try again</string>
+    <string name="title_activity_events">Events</string>
+    <!--Events -->
+    <string name="Events">Events</string>
+    <string name="title_activity_update_user">UpdateUser</string>
+    <!--Update user -->
+    <string name="Personal_data">Personal data</string>
+    <string name="New_email">New e-mail:</string>
+    <string name="New_phone">New phone:</string>
+    <string name="New_password">New password</string>
+    <string name="Update_user">Update</string>
+    <string name="title_activity_show_pop_up">ShowPopUp</string>
+    <!--PopUp -->
+    <string name="PopUp_Msg">You are going to delete your user account. Are you sure?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="title_activity_configuration">Configuration</string>
+    <string name="title_activity_configurations">Configurations</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <!--About us... -->
+    <string name="Version">Version 1.0</string>
+    <string name="copyright">© 2016 All rights reserved</string>
+    <string name="License">License</string>
+    <string name="Icon_app">Icon app</string>
+    <string name="title_activity_license">License</string>
+    <string name="title_activity_help">Help</string>
+    <!--License -->
+    <string name="License_Text">License license license license license license license license license license license license license license license license license license license license license.</string>
+    <!--Help -->
+    <string name="Help_Text">Help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help.</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_local__boveda">Local_Boveda</string>
+    <string name="title_activity_local__ceferino">Local_Ceferino</string>
+    <string name="title_activity_local__sr_lobo">Local_SrLobo</string>
+    <string name="title_activity_local__razz">Local_Razz</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_perfil">
+        <item>Profile</item>
+        <item>Configurations</item>
+        <item>Close session</item>
+    </string-array>
+</resources>

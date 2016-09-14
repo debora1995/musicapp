@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="On_Click">onClick</string>
+    <string name="title_activity_login">MusicApp</string>
+    <string name="title_activity_create_acount">Crea un usuari</string>
+    <string name="title_activity_forgot_pass">Has oblidat la contrasenya?</string>
+    <string name="title_activity_search_filter">Busqueda filtrada</string>
+    <!--Login -->
+    <string name="Welcome">Benvingut a MusicApp!</string>
+    <string name="Gmail">Gmail</string>
+    <string name="User">Soc usuari</string>
+    <string name="Create_user">Nou usuari</string>
+    <string name="Forgot_pass">Has oblidat la contrasenya?</string>
+    <!--Principal -->
+    <string name="Map">Maps</string>
+    <string name="Image_search">Ves a la busqueda filtrada</string>
+    <string name="Image_maps">Ves a Google Maps</string>
+    <!--Search filter -->
+    <string name="Search_title">Busqueda filtrada</string>
+    <string name="ArtistBand">Artista/Grup</string>
+    <string name="Local">Local</string>
+    <string name="Poblation">Poblacio</string>
+    <string name="Date">Fecha</string>
+    <string name="PickDate">Selecciona una data</string>
+    <string name="Filter">Filtra</string>
+    <!--Create new user -->
+    <string name="New_user">Nou usuari</string>
+    <string name="Name">Nom:</string>
+    <string name="Lastname">Cognom:</string>
+    <string name="Password">Contrasenya:</string>
+    <string name="Incorrect_password">*Error,  Maxim 14 ch - Minim 8 ch</string>
+    <string name="Sex">Sexe</string>
+    <string-array name="sex_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <string name="Birthdate">Data de naixement:</string>
+    <string name="Description_imgCalendar">Selecciona la teva data de nacimiento</string>
+    <string name="Phone">Phone:</string>
+    <string name="Incorrect_phone">*Numero de telefon no valid</string>
+    <string name="Email">E-mail</string>
+    <string name="Create">Crea un usuari</string>
+    <string name="Cancel">Cancel·la</string>
+    <!--Forgot your password? -->
+    <string name="Forgot_pass_title">Has oblidat la contrasenya?</string>
+    <string name="instructions">Introdueix la teva adreça de correu i t\'enviarem un e-mail per reestablir la contrasenya.</string>
+    <string name="Send">Enviar</string>
+    <!--Profile -->
+    <string name="Profile_photo">foto</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_input_user">InputUser</string>
+    <string name="title_activity_input_event">InputEvent</string>
+    <string name="Local_owners">Tens un local?</string>
+    <!--Create new event -->
+    <string name="New_event">Nou event</string>
+    <string name="Day">Dia:</string>
+    <string name="Hour">Hora:</string>
+    <string name="Price">Preu:</string>
+    <string name="Hint_price">0,00€</string>
+    <string name="Event_Photo">Foto:</string>
+    <string name="Photo_event">Foto de l\'event</string>
+    <string name="Observations">Observacions:</string>
+    <string name="Create_event">Crear event</string>
+    <string name="title_activity_identification">Identificacio</string>
+    <!--Identification -->
+    <string name="Sign_in">Entrar</string>
+    <string name="Error_identification">E-mail o contraseña incorrecte. Intenta-ho novament</string>
+    <string name="title_activity_events">Events</string>
+    <!--Events -->
+    <string name="Events">Events</string>
+    <!--Update user -->
+    <string name="Personal_data">Dades personals</string>
+    <string name="New_email">Nou e-mail:</string>
+    <string name="New_phone">Nou telefon:</string>
+    <string name="New_password">Nova contrasenya</string>
+    <string name="Update_user">Actualitzar</string>
+    <!--PopUp -->
+    <string name="PopUp_Msg">Eliminaras el teu usuari. Estas segur?</string>
+    <string name="Yes">Si</string>
+    <string name="No">No</string>
+    <string name="title_activity_configuration">Configuration</string>
+    <string name="title_activity_configurations">Configurations</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <!--About us... -->
+    <string name="Version">Versio 1.0</string>
+    <string name="copyright">© 2016 Tots els drets reservats</string>
+    <string name="License">Llicencia</string>
+    <string name="Icon_app">Icon app</string>
+    <string name="title_activity_license">Llicencia</string>
+    <string name="title_activity_help">Ajuda</string>
+    <!--License -->
+    <string name="License_Text">License license license license license license license license license license license license license license license license license license license license license.</string>
+    <!--Help -->
+    <string name="Help_Text">Help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help help.</string> 
+</resources>
