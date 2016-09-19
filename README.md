@@ -14,9 +14,11 @@ Putting them all together we come up with ….
 Search events
 Share the taste for good music
 Union between different users
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/1.jpg)
 
 
 #Demo
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/2.png)
 
 
 
@@ -28,6 +30,8 @@ Union between different users
 
 #Technical description
 Development Environment:
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/3.png)
+
 
 
 ##Libraries
@@ -48,6 +52,9 @@ Development Environment:
 * Documentation
 * Search for new features (map)
 
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/4.png)
+
+
 #User manual
 ##Introduction
 MusicApp is an app where you can share your favorite music with
@@ -55,18 +62,24 @@ different users.
 ##Login 
 MusicApp welcome page allows you to sign the application
 
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/5.png)
+
 
 
 ##From here you can:
 
 Access to your account
 Create a New User (Register)
-Or Restore your Password .
+Or Restore your Password 
+
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/6.png)
 
 
 
 
 ##Register New User
+
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/7.png)
 
 
 
@@ -74,17 +87,26 @@ Or Restore your Password .
 ##Home
 Once logged in the main wall will appear with all the events.
 
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/8.png)
+
 
 You can filter the content by selecting the button with the image of the lens by date,  artist, place or address.
+
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/9.png)
 
 
 From the main wall you can access all the functionality of the application so
 quickly and easily using two side menus, one for user settings and other
 for settings.
-From
+
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/10.png)
 
 
 From these menus you have the opportunity to modify your profile
 
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/11.png)
+
 
 Or be able to create a new Event, as shown below
+
+![alt tag](https://github.com/debora1995/musicapp/blob/debora1995-img/img/12.png)
